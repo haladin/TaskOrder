@@ -1,24 +1,24 @@
-#Task ordering service
+# Task ordering service
 
 Task ordering service using Kotlin with Ktor framework
 
-##Pre-requisite for building and running: 
+## Pre-requisite for building and running: 
 
 - OpenJDK (on Ubuntu/Debian based distros `sudo apt install default-jdk`)
 
-##Build:
+## Build:
 
 ```bash
 ./gradlew build
 ```
 
-##Run: 
+## Run: 
     
 ```bash
 java -server -XX:+UseG1GC -XX:MaxGCPauseMillis=100 -jar ./build/libs/sumup_task-0.0.1-all.jar
 ```
     
-##Usage:
+## Usage:
 
 Example input:
 
